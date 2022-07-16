@@ -1,0 +1,39 @@
+.body__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    text-align: justify;
+    margin-inline-start: 10%;
+    padding: 30px;
+
+}
+
+.cn {
+    align-self: center;
+
+}
+
+.body__info {
+    padding-inline-start: 40px;
+
+}
+
+@media screen and (max-width :768px) {
+
+    .body__container {
+        flex-direction: column;
+    }
+
+    .body__info {
+        padding-inline-start: 0;
+        padding-block-start: 10px;
+    }
+
+}
+
+@media screen and (max-width :480px){
+    .body__img{
+        height: 170px;
+    }
+}

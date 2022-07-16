@@ -1,0 +1,17 @@
+.carrusel__container{
+    height: 50vh;
+    width: 100vw;
+    background-color: $rose;
+}
+
+.carrusel__img{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width :480px) {
+    .carrusel__container{
+        height: 40vh;
+    }
+}

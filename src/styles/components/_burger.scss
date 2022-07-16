@@ -1,0 +1,73 @@
+.burger__prin {
+    font-size: 50px;
+}
+
+.burger__nav-close {
+    display: none;
+}
+
+@media screen and (max-width :480px) {
+    .burger__nav {
+        flex-flow: column nowrap;
+        background-color: #DFE4EA;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 60vw;
+        transition: transform 0.3s ease-in-out;
+
+        .nav__general {
+            flex-direction: column;
+            font-size: 20px;
+            align-items: flex-start;
+
+        }
+
+        .burger__exit {
+            font-size: 50px;
+            margin: 20px;
+        }
+
+        .nav__li-general {
+            padding-inline-end: 20px;
+        }
+
+        ul {
+            padding-inline-start: 20px;
+            padding-block-start: 20px;
+
+            li ul {
+                display: none;
+                position: initial;
+                width: 100%;
+            }
+
+            li {
+                padding-block-start: 20px;
+            }
+
+            li:hover>ul {
+                display: block;
+
+            }
+
+            li:hover ul li {
+                position: relative;
+                font-weight: 500;
+                top: 15px;
+                width: 100%;
+                background-color: rgba($color: white, $alpha: 0.8);
+                padding: 5px;
+            }
+
+            li:hover ul li:hover {
+                background-color: #9d9b46;
+                font-weight: 700;
+            }
+
+        }
+
+    }
+
+}
