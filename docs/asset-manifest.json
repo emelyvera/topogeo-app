@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.8cb2d953.css",
-    "main.js": "/static/js/main.a27c2cc4.js",
-    "static/media/mina.png": "/static/media/mina.6cb7c1589cc22afc5084.png",
-    "static/media/body.png": "/static/media/body.5c9b88e699230cdb3c60.png",
-    "static/media/dron.png": "/static/media/dron.7677f0cf08559e318d48.png",
-    "static/media/logo.png": "/static/media/logo.38a7dd42bd9de50b37cd.png",
-    "static/media/group.png": "/static/media/group.cd9f5809cb804b2ab681.png",
-    "static/media/WhatsApp.svg": "/static/media/WhatsApp.6181e5cecd1a682846ba3e623621a869.svg",
-    "index.html": "/index.html",
-    "main.8cb2d953.css.map": "/static/css/main.8cb2d953.css.map",
-    "main.a27c2cc4.js.map": "/static/js/main.a27c2cc4.js.map"
+    "main.css": "/topogeo-app/static/css/main.8cb2d953.css",
+    "main.js": "/topogeo-app/static/js/main.a3acdbca.js",
+    "static/media/mina.png": "/topogeo-app/static/media/mina.6cb7c1589cc22afc5084.png",
+    "static/media/body.png": "/topogeo-app/static/media/body.5c9b88e699230cdb3c60.png",
+    "static/media/dron.png": "/topogeo-app/static/media/dron.7677f0cf08559e318d48.png",
+    "static/media/logo.png": "/topogeo-app/static/media/logo.38a7dd42bd9de50b37cd.png",
+    "static/media/group.png": "/topogeo-app/static/media/group.cd9f5809cb804b2ab681.png",
+    "static/media/WhatsApp.svg": "/topogeo-app/static/media/WhatsApp.6181e5cecd1a682846ba3e623621a869.svg",
+    "index.html": "/topogeo-app/index.html",
+    "main.8cb2d953.css.map": "/topogeo-app/static/css/main.8cb2d953.css.map",
+    "main.a3acdbca.js.map": "/topogeo-app/static/js/main.a3acdbca.js.map"
   },
   "entrypoints": [
     "static/css/main.8cb2d953.css",
-    "static/js/main.a27c2cc4.js"
+    "static/js/main.a3acdbca.js"
   ]
 }
